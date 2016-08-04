@@ -1,5 +1,13 @@
 Author: Boya Gao
-Description:
+#Instructions: #
+
+	`make`	   - compiles scara.cpp but doesn't run
+	`make all`   - compiles, run, clean everything
+	`make run`   - compiles and runs scara
+	`make clean` - removes all output files and executable
+	
+	
+#Description:#
 
 	Displays a 3-link SCARA robot arm based on Angel's chapter 8 definition
 	of his robot arm. The joints to be manipulated can be selected by right
@@ -21,11 +29,3 @@ Description:
 	Press - to rotate joint counterclockwise or move down 
 	Press J or SHIFT+J to decrease/increase Phi component of the angle 
 	Press K or SHIFT+K to decrease/increase Theta component of the angle 
-
-
-Instructions:
-
-	make	   - compiles scara.cpp but doesn't run
-	make all   - compiles, run, clean everything
-	make run   - compiles and runs scara
-	make clean - removes all output files and executable
